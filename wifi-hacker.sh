@@ -7,9 +7,9 @@
 
 
 # WiFi Hacker v1.9
-# esc0rtd3w 2017
+# Android Jc
 
-# https://github.com/esc0rtd3w/wifi-hacker/
+# https://github.com/Jclopena/wifihack/
 
 # Uses parts of the aircrack-ng suite, reaver, wifite, and many other tools
 
@@ -739,7 +739,7 @@ setVariablesRequired(){
 	versionRemoteClean="00"
 	versionRemoteTemp="0.0"
 	newUpdateAvailable="0"
-	updateMaster=https://raw.githubusercontent.com/esc0rtd3w/wifi-hacker/master/wifi-hacker.sh
+	updateMaster=https://raw.githubusercontent.com/Jclopena/wifihack/master/wifi-hacker.sh
 	updateTemp="/tmp/update-check.tmp"
 	updateChecked="0"
 	skipUpdate="0"
@@ -1181,7 +1181,7 @@ banner(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [M] Main Menu    |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2017  /  github.com/esc0rtd3w *    | [X] Exit           |"
+	echo "|  [M] Main Menu    |    * WiFi Hacker v$versionBase  /  Android Jc /  github.com/Jclopena *    | [X] Exit           |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$yellow
 	echo "-------------------------------------------------------------------------------------------------------------------"
@@ -1202,7 +1202,7 @@ bannerNoMenu(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ CTRL+C ] Main  |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2017  /  github.com/esc0rtd3w *    | [CTRL+C x2 ] Exit  |"
+	echo "|  [ CTRL+C ] Main  |    * WiFi Hacker v$versionBase  /  Android Jc  /  github.com/Jclopena *    | [CTRL+C x2 ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$yellow
 	echo "-------------------------------------------------------------------------------------------------------------------"
@@ -1223,7 +1223,7 @@ bannerMain(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2017  /  github.com/esc0rtd3w *    | [CTRL+C    ] Exit  |"
+	echo "|  [ ]              |    * WiFi Hacker v$versionBase  / Android Jc  /  github.com/Jclopena *    | [CTRL+C    ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	echo "-------------------------------------------------------------------------------------------------------------------"
 	$yellow
@@ -1243,7 +1243,7 @@ bannerMenu(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2017  /  github.com/esc0rtd3w *    | [CTRL+C    ] Exit  |"
+	echo "|  [ ]              |    * WiFi Hacker v$versionBase  / Android Jc  /  github.com/Jclopena *    | [CTRL+C    ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$yellow
 	echo "-------------------------------------------------------------------------------------------------------------------"
@@ -1263,7 +1263,7 @@ bannerSlim(){
 	clear
 	$blue
 	echo "---------------------    ****************************************************************    ----------------------"
-	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  esc0rtd3w 2017  /  github.com/esc0rtd3w *    | [CTRL+C    ] Exit  |"
+	echo "|  [ ]              |    * WiFi Hacker v$versionBase  /  Android Jc  /  github.com/Jclopena *    | [CTRL+C    ] Exit  |"
 	echo "---------------------    ****************************************************************    ----------------------"
 	$white
 
@@ -1295,15 +1295,15 @@ bannerExit(){
 
 	clear
 	$blue
-	echo "Thank You For Playing Fair ;)"
+	echo "IEPH Developer's"
 	echo ""
-	echo "esc0rtd3w 2017"
+	echo "Android Jc"
 	echo ""
 	echo ""
 	$cyan
-	echo "View My Other Projects On GitHub:"
+	echo "Support IEPH DEV"
 	echo ""
-	echo "https://github.com/esc0rtd3w"
+	echo "https://github.com/Jclopena"
 	echo ""
 	echo ""
 
@@ -1332,15 +1332,15 @@ bannerExitUpdate(){
 	echo ""
 	echo ""
 	$blue
-	echo "Thank You For Playing Fair ;)"
+	echo "IEPH Developer's"
 	echo ""
-	echo "esc0rtd3w 2017"
+	echo "Android Jc "
 	echo ""
 	echo ""
 	$cyan
-	echo "View My Other Projects On GitHub:"
+	echo "Support IEPH DEV "
 	echo ""
-	echo "https://github.com/esc0rtd3w"
+	echo "https://github.com/Jclopena"
 	echo ""
 	echo ""
 
@@ -1771,7 +1771,7 @@ noRootAccess(){
 	bannerStats
 
 	$red
-	echo "Yikes! No Root Access!"
+	echo " No Root Access! Mag root ka muna"
 	$white
 	echo ""
 	echo ""
